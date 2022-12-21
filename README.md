@@ -3,7 +3,9 @@ Installation description about container which run SoftEtherVPN with Podman.
 
 Please see about SoftEtherVPN. <https://www.softether.org/>
 
-This make it possible to run SoftEtherVPN server on a container. VPNAzure is also available.
+This make it possible to run SoftEtherVPN server on a container. 
+
+This container is considered to use only VPNAzure without port opening.
 
 Please see about VPNAzure.
 
