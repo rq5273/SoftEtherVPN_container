@@ -1,0 +1,2 @@
+vpnserver start
+bash
