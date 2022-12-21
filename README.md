@@ -14,7 +14,7 @@ Please see about VPNAzure.
 # How to use?
 Please clone this repository and run install.sh.
 
-After running install.sh, please run "vpnserver start" command and configure settings with "vpncmd" command.
+After running install.sh, please run "vpncmd" command to configure settings.
 
 Before the installation, please see codes to understand how it works. 
 
