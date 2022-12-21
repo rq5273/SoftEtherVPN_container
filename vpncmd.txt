@@ -3,7 +3,7 @@ BridgeCreate
 DynamicDnsGetStatus
 DynamicDnsSetHostname
 VpnAzureSetEnable yes
-Hub DEFAULT #Hub設定に移動
+Hub DEFAULT #Move to Hub setting
 UserCreate
 UserPasswordSet
 exit
