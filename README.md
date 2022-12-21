@@ -1,9 +1,9 @@
 # SoftEtherVPN_container
-Installation description about container which run SoftEtherVPN with Podman.
+Building and running description about container which run SoftEtherVPN with Podman.
 
 Please see about SoftEtherVPN. <https://www.softether.org/>
 
-This make it possible to run SoftEtherVPN server on a container. 
+This make it possible to run SoftEtherVPN server on a container and use SoftEtherVPN in Linux without any software installation to your environment.
 
 This container is considered to use only VPNAzure without port opening.
 
@@ -14,7 +14,7 @@ Please see about VPNAzure.
 # How to use?
 Please clone this repository and run install.sh.
 
-After running install.sh, please configure settings.
+After running install.sh, please run "vpnserver start" command and configure settings with "vpncmd" command.
 
 Before the installation, please see codes to understand how it works. 
 
