@@ -5,4 +5,4 @@ WORKDIR /usr/src/app
 COPY . .
 RUN ./configure
 RUN make install
-CMD ["sudo","bash","cmd.sh"]
+CMD ["bash","cmd.sh"]
