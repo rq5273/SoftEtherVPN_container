@@ -1,6 +1,6 @@
-FROM docker.io/fedora:latest
-RUN dnf -y groupinstall "Development Tools"
-RUN dnf -y install readline-devel ncurses-devel openssl-devel net-tools
+FROM docker.io/ubuntu:latest
+RUN apt -y update
+RUN dnf -y install build-essential readline-devel ncurses-devel openssl-devel net-tools
 WORKDIR /usr/src/app
 COPY . .
 RUN ./configure
