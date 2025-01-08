@@ -1,9 +1,0 @@
-BridgeDeviceList
-BridgeCreate
-DynamicDnsGetStatus
-DynamicDnsSetHostname
-VpnAzureSetEnable yes
-Hub DEFAULT #Move to Hub setting
-UserCreate
-UserPasswordSet
-exit
