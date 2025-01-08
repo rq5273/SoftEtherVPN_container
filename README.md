@@ -24,4 +24,15 @@ Please see here.
 
 <https://www.softether.org/4-docs/1-manual/6._Command_Line_Management_Utility_Manual/6.1_Overview_of_vpncmd>
 
-vpncmd.txt describes the commands which are useful to configure VPNAzure in vpncmd.
+Commands below are neccesary to configure VPNAzure in vpncmd.
+```
+BridgeDeviceList
+BridgeCreate
+DynamicDnsGetStatus
+DynamicDnsSetHostname
+VpnAzureSetEnable yes
+Hub DEFAULT #Move to Hub setting
+UserCreate
+UserPasswordSet
+exit
+```
